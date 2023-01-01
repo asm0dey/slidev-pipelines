@@ -1,6 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/emojione': ^1.1.3
+  '@iconify-json/emojione-monotone': ^1.1.3
+  '@iconify-json/noto-v1': ^1.1.4
+  '@iconify-json/twemoji': ^1.1.7
   '@slidev/cli': ^0.38.2
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
@@ -12,6 +16,10 @@ dependencies:
   '@slidev/theme-seriph': 0.21.3
 
 devDependencies:
+  '@iconify-json/emojione': 1.1.3
+  '@iconify-json/emojione-monotone': 1.1.3
+  '@iconify-json/noto-v1': 1.1.4
+  '@iconify-json/twemoji': 1.1.7
   playwright-chromium: 1.29.1
 
 packages:
@@ -479,15 +487,38 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/emojione-monotone/1.1.3:
+    resolution: {integrity: sha512-b3Q/XviZXy+Y1J0A9Ql9oEzHobHlWrhfMfweXKXJ6FL+NQp/fBK1rfAh+CR048jdTyYRQ0AmULLTvUAQU8r08w==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/emojione/1.1.3:
+    resolution: {integrity: sha512-IrZCiNrmFz8rRp8ZOpRJZR0IYn5Fhvb2XEpsfGS6WHzv8bJk8QWxFn31CK4bAEI4FYiX0LiCnYHmer51d7l2/w==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/noto-v1/1.1.4:
+    resolution: {integrity: sha512-W1fZ53TfntsH29vQsPbFOF6fSvbLWAD3FoiS1xUxSi69VqVgXlwOZddpTTpSY/qgmGfxEtMVoUCzMbp4L4bPbg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph/1.1.3:
     resolution: {integrity: sha512-QSzWMGF8GiBPW89RpQ3bEwEjuRWTv/xxskStUpK7tsXlz3qoPTEM5CQxDUpzUmc9luAWViqD/shIUiuNhUeolw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/twemoji/1.1.7:
+    resolution: {integrity: sha512-ovkSkktCbRQDdmplzkgZZGUazwTTwzbzQ6ahDUzHDTehA7U8RKAmL5a++a6SCOmFWTQ+RMn2cuXyTcMHe0Rf4Q==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: false
 
   /@iconify/utils/2.0.6:
     resolution: {integrity: sha512-XVC4T1gKbtKBjwvWdTthYkRWNNiGDfsbyuTvFdbcOux77KIF2w03hQMxKcMTtFwezzW/DV5CC3DNZfY3Tcs0hA==}
