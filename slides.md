@@ -2,27 +2,27 @@
 download: true
 theme: seriph
 fonts:
-  sans: Robot
-  serif: 'Robot Slab'
+  sans: Roboto
+  serif: 'Roboto Slab'
   mono: 'JetBrains Mono'
-  fallback: false
+  provider: 'google'
 layout: intro
 ---
 
 # Himalayan Peaks of Testing Data Pipelines
 
-The talk about quality of pipelines
+Talk about quality of pipelines
 
 Pasha Finkelshteyn, JetBrains
 
-Ksenia Tomak, HelloFresh
-
 ---
 layout: cover
-background: images/asm0dey.jpg
+background: asm0dey.jpg
 ---
 
 # Pasha Finkelshteyn
+
+me
 
 Developer 🥑 for Big Data @ JetBrains
 
