@@ -1,4 +1,5 @@
 ---
+download: true
 theme: seriph
 fonts:
   sans: Robot

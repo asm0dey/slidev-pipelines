@@ -38,9 +38,16 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: playwright
+        run: pnpx playwright install
         
       - name: Build
-        run: pnpm run build
+        run: pnpm run build --base /slidev-pipelines
+
+      - name: Copy images
+        if: success()
+        run: cp -r images dist
         
       - name: Deploy pages
         if: success()
