@@ -1,4 +1,5 @@
 ---
+theme: seriph
 fonts:
   sans: Robot
   serif: 'Robot Slab'
